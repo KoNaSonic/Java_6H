@@ -6,5 +6,36 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/ParentAndChild/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/ParentAndChild/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/Restaurant/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/Restaurant/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/gettingStarted/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/gettingStarted/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/AngularDemo/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/AngularDemo/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/css-background-image-tutorial/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/css-background-image-tutorial/tsconfig.spec.json"
+    }
+]
 }
