@@ -1,0 +1,10 @@
+<table>
+  <tr>
+    <td></td>
+    <td *ngFor="let curr of currList">{{curr}}</td>
+  </tr>
+  <tr *ngFor="let curr1 of currList">
+    <td>{{curr1}}</td>
+    <td *ngFor="let curr2 of currList">{{rates[curr1]/rates[curr2] | number: ".4-4"}}</td>
+  </tr>
+</table>

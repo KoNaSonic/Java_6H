@@ -1,0 +1,11 @@
+<p>Users in chat:</p>
+<app-multy-select ></app-multy-select>
+<div class="flex-container">
+  <app-chat-box *ngFor="let userName of chosenUsers" [user]="userName" [chatList]="chat"></app-chat-box>
+</div>
+
+
+
+
+
+

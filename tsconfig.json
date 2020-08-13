@@ -36,6 +36,24 @@
     },
     {
       "path": "./projects/css-background-image-tutorial/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/Chat/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/Chat/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/CrossCourseTab/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/CrossCourseTab/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/ChatBox/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/ChatBox/tsconfig.spec.json"
     }
 ]
 }

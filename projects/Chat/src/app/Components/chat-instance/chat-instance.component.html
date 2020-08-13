@@ -1,0 +1,10 @@
+<div [ngClass]="'wrap'">
+  <p>{{name}}</p>
+  <p>
+    <input (keyup.enter)="send()" [(ngModel)]="message"/>
+    <button (click)="send()">Send</button>
+  </p>
+  <div>
+    <p *ngFor="let msg of messages">{{msg}}</p>
+  </div>
+</div>

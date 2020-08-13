@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MultipleBackgroundImagesComponent } from './Components/multiple-background-images/multiple-background-images.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MultipleBackgroundImagesComponent
   ],
   imports: [
     BrowserModule,

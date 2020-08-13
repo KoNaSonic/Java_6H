@@ -1,0 +1,6 @@
+<div>
+  <p>{{chosenUsers}}</p>
+  <select #sel multiple size="5" (change)="getChoice()">
+    <option *ngFor="let user of users">{{user}}</option>
+  </select>
+</div>

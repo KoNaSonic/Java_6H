@@ -1,0 +1,34 @@
+
+  <div class="chat-box">
+    <div class="chat-header"> {{user}} </div>
+    <div class="message" >
+      <div *ngFor="let message of chatList">
+        <div  *ngIf="user!=message.user; else yourMessage">
+          <p>[{{message.time | date : 'dd-MM-yyyy HH:mm'}}]</p>
+          <p>{{message.user}} : </p>
+          <p>{{message.text}}</p>
+        </div>
+
+        <ng-template #yourMessage>
+          <label class='yourMessage'>
+            <p>{{message.text}}</p>
+            <p> #you</p>
+            <p>[{{message.time | date : 'dd-MM-yyyy HH:mm'}}]</p>
+          </label>
+
+        </ng-template>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="input">
+        <input  [(ngModel)]="text"  placeholder="your message"/>
+      </div>
+      <div class="button">
+        <button (click)="sendMessage(text)">send</button>
+      </div>
+  </div>
+
+
+
+  </div>
+

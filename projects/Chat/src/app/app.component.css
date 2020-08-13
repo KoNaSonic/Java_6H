@@ -1,0 +1,16 @@
+.wrap{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card{
+  font-family: "Monotype Corsiva";
+  font-size: 1.5rem;
+  width: 15%;
+  padding-left: 2rem;
+  padding-right: 0;
+  background-color: gainsboro;
+  border-radius: 1em;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}

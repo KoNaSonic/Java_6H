@@ -1,0 +1,6 @@
+<div>
+  <p>[{{chosenCurrencies}}]</p>
+  <select #sel multiple size="10" (change)="getChoice()">
+    <option *ngFor="let opt of options">{{opt}}</option>
+  </select>
+</div>
