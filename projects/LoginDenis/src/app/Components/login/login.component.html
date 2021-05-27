@@ -1,0 +1,28 @@
+<div class="main-container">
+  <div [ngClass]="{'container-log':isLogin}">
+    <p class="title">Log In</p>
+    <div class="container-inp">
+      <label><input [(ngModel)]="log">Login</label>
+      <label><input [(ngModel)]="psw">Password</label>
+    </div>
+    <div class="controls-btn">
+      <button (click)="sendRequest()">Submit</button>
+      <button (click)="resetData()">Reset</button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="result == 'OK'; then greeting_win; else greeting_lose"></div>
+  <ng-template #greeting_win>
+    <div [ngClass]="{'greeting-win': isWin}" [ngStyle]="{'z-index': 10}">
+      <button class="btnBack" (click)="returnBack()">Back</button>
+      <p [ngStyle]="{fontSize: '5vh'}">Welcome, buddy!</p>
+    </div>
+  </ng-template>
+  <ng-template #greeting_lose>
+    <div [ngClass]="{'greeting-lose': isLose}" [ngStyle]="{'z-index': 10}">
+      <button class="btnBack" (click)="returnBack()">Back</button>
+      <p [ngStyle]="{fontSize: '5vh'}">Begone, ugly hacker!</p>
+    </div>
+  </ng-template>
+

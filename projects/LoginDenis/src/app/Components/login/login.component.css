@@ -1,0 +1,59 @@
+.main-container{
+  position: absolute;
+  width: 100vw; height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #ccffff;
+}
+.container-log{
+  position: absolute;
+  width: 300px; height: 200px;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  background-color: #1976d2;
+  box-shadow: 0.5vmin 0.5vmin 1.5vmin 0 rgba(0,0,0,0.25), 0.5vmin 0.5vmin 0.7vmin 0 rgba(0,0,0,0.25);
+}
+.controls-btn{
+  height: 20%;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  padding: 10px;
+}
+.greeting-win{
+  position: absolute;
+  width: 100vw; height: 100vh;
+  background-color: #008888;
+  z-index: -1;
+}
+.greeting-lose{
+  position: absolute;
+  width: 100vw; height: 100vh;
+  background-color: #873641;
+  z-index: -1;
+}
+input{
+  width: 150px;
+  margin: 5px; padding: 5px;
+}
+button{
+  background-color: lightgreen;
+  cursor: pointer;
+  margin: 3px;
+}
+.title{
+  font-size: 2.5vmin;
+  text-align: center;
+}
+.container-inp{
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-content: center;
+}
+.welcome{
+  left: 50%; top: 50%; transform: translate(-50%, -50%);
+  font-size: 5vh;
+}
