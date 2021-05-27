@@ -32,10 +32,10 @@
       "path": "./projects/AngularDemo/tsconfig.spec.json"
     },
     {
-      "path": "./projects/css-background-image-tutorial/tsconfig.app.json"
+      "path": "./projects/css-image/tsconfig.app.json"
     },
     {
-      "path": "./projects/css-background-image-tutorial/tsconfig.spec.json"
+      "path": "./projects/css-image/tsconfig.spec.json"
     },
     {
       "path": "./projects/Chat/tsconfig.app.json"
@@ -54,6 +54,24 @@
     },
     {
       "path": "./projects/ChatBox/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/LoginDaria/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/LoginDaria/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/LoginDenis/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/LoginDenis/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/registration-login-example/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/registration-login-example/tsconfig.spec.json"
     }
 ]
 }
